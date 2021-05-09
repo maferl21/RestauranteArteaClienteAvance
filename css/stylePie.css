@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Tahoma;
+}
+#logoF{
+    width: 200px;
+}
+.box ul{
+    list-style: none; /*Eliminar biñetas de la listas*/
+}
+.box li a{
+    text-decoration: none; /* Sin subrayado*/
+    color: white;
+}
+.box1{
+    padding-left: 30px;
+}
+.box{
+  padding: 20px;
+  padding-top: 30px;
+  color: white;
+}
+.contenedor{
+    background-color: #000000;
+    color: white;
+    display: grid;
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
+    /* grid-gap: 20px;  este es para que haya sepación entre las filas*/
+    /* grid-template-columns:repeat(5, 1fr); */
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 2fr 1fr 1fr; para las filas */
+} 
+.redes li{
+    display: inline-block;
+}
+.redes li a{
+    padding: 15px;
+    color: white;
+}
+p{
+    text-align: center;
+}
